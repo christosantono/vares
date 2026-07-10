@@ -15,7 +15,7 @@ vares is a decentralized, full-stack platform designed to transform creative con
 
 ---
 
-## the core setup
+## The core setup
 
 * **Frictionless Web3 Authentication:** Say goodbye to legacy email logins. Authenticate instantly via a clean, unified Web3 modal fully optimized for wallet extensions and native Solana wallet adapters.
 * **Powered by remade.ai:** Utilizes the advanced remade.ai engineering stack to orchestrate asynchronous text-to-image AI pipelines, handling rapid model queries without client-side lag.
