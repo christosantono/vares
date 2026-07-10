@@ -50,5 +50,5 @@ Ensure you have the following software profiles running locally:
 ### 1. Project Initialization
 Clone the platform codebase and enter the working directory:
 ```bash
-git clone [https://github.com/christosantono/vares.git](https://github.com/christosantono/vares.git)
+git clone https://github.com/christosantono/vares.git
 cd vares
