@@ -55,18 +55,6 @@ The platform combines high-speed AI generation with native Solana integrations, 
 
 ---
 
-## Architecture
-
-| Layer | Technology | Purpose |
-|--------|------------|---------|
-| Frontend | React • TypeScript • TailwindCSS | User interface and generation workflow |
-| Backend | Node.js • Express | API gateway and generation services |
-| AI Engine | remade.ai | Image generation pipeline |
-| Storage | IPFS • Pinata | Permanent asset storage |
-| Blockchain | Solana | Asset ownership and deployment |
-
----
-
 ## Why vares?
 
 Traditional AI image generators stop after creating an image.
