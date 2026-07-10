@@ -59,17 +59,6 @@ Built using optimized **christosantono** design patterns and powered by the robu
 
 ## Architecture Overview
 
-┌─────────────────┐       POST /generate       ┌─────────────────┐
-│  React Frontend  │ ────────────────────────> │ Express Backend │
-│  (Web3 Modal)   │ <──────────────────────── │ (christosantono)│
-└────────┬────────┘       Image Streams        └────────┬────────┘
-│                                              │
-Mint │ (Ethers.js)                             Push │ (Pinata)
-▼                                              ▼
-┌─────────────────┐                            ┌─────────────────┐
-│   EVM Contract  │                            │   IPFS Storage  │
-└─────────────────┘                            └─────────────────┘
-
 The stack uses a highly decoupled architecture optimized for low latency and pure decentralization:
 
 | Component | Technology | Responsibility |
