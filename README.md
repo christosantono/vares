@@ -55,6 +55,18 @@ The platform combines high-speed AI generation with native Solana integrations, 
 
 ---
 
+## Architecture
+
+| Layer | Technology | Purpose |
+|--------|------------|---------|
+| Frontend | React • TypeScript • TailwindCSS | User interface and generation workflow |
+| Backend | Node.js • Express | API gateway and generation services |
+| AI Engine | remade.ai | Image generation pipeline |
+| Storage | IPFS • Pinata | Permanent asset storage |
+| Blockchain | Solana | Asset ownership and deployment |
+
+---
+
 ## Why vares?
 
 Traditional AI image generators stop after creating an image.
@@ -95,31 +107,6 @@ npm run dev
 - npm or Yarn
 - Phantom or another Solana wallet
 - Solana CLI (optional)
-
----
-
-## Project Structure
-
-```
-vares/
-│
-├── client/
-│   ├── components/
-│   ├── pages/
-│   ├── hooks/
-│   └── assets/
-│
-├── server/
-│   ├── routes/
-│   ├── services/
-│   └── middleware/
-│
-├── contracts/
-│
-├── public/
-│
-└── package.json
-```
 
 ---
 
