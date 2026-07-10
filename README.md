@@ -1,54 +1,173 @@
-# vares
+<p align="center">
+  <img src="./assets/banner.png" alt="vares Banner" width="100%">
+</p>
 
 <p align="center">
-  <a href="https://solana.com"><img src="https://img.shields.io/badge/Network-Solana-00FFA3?style=flat-square&logo=solana&logoColor=black" alt="Solana" /></a>
-  <a href="https://remade.ai"><img src="https://img.shields.io/badge/Engine-remade.ai-00FFCC?style=flat-square" alt="remade.ai Engine" /></a>
-  <a href="https://github.com/christosantono/vares/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-flat?style=flat-square&color=yellow" alt="License: MIT" /></a>
-  <img src="https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square" alt="Build Status" />
+  <img src="./assets/logo.png" width="110" alt="vares Logo">
+</p>
+
+<h1 align="center">vares</h1>
+
+<p align="center">
+  Imagine. Generate. Create.
+</p>
+
+<p align="center">
+  <a href="https://github.com/christosantono/vares">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Solana-Mainnet-9945FF?style=for-the-badge&logo=solana">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js">
+  </a>
 </p>
 
 ---
 
-## Welcome to vares
+## Overview
 
-vares is a decentralized, full-stack platform designed to transform creative concepts into high-utility digital assets on Solana. We wanted to build something that turns whatever’s in your head into digital assets on Solana, without all the usual crypto friction. It's basically a cracked AI image generation tool that hooks up directly to blockchain tech, so creators, builders, and community leads can spin up media, design whole memecoin ideas, and launch them on-chain in literally seconds.
+**vares** is an AI-powered creative platform built for Solana.
 
----
+It allows anyone to generate images, develop visual concepts, and prepare blockchain-ready assets from a single interface. Whether you're building a meme coin, designing NFT artwork, creating marketing visuals, or simply experimenting with ideas, vares removes the friction between imagination and deployment.
 
-## The core setup
-
-* **Frictionless Web3 Authentication:** Say goodbye to legacy email logins. Authenticate instantly via a clean, unified Web3 modal fully optimized for wallet extensions and native Solana wallet adapters.
-* **Powered by remade.ai:** Utilizes the advanced remade.ai engineering stack to orchestrate asynchronous text-to-image AI pipelines, handling rapid model queries without client-side lag.
-* **Launchpad Ready:** Built explicitly for fast asset distribution. Automatically formats asset schemas, pins media configurations to IPFS, and preps assets for direct tokenization or NFT deployment.
+The platform combines high-speed AI generation with native Solana integrations, giving creators a workflow that feels simple while remaining fully decentralized underneath.
 
 ---
 
-The stack utilizes a decoupled, high-throughput pipeline designed for low latency:
+## Features
 
-| Component | Architecture | Core Responsibility |
-| :--- | :--- | :--- |
-| **Frontend UI** | React.js, `@solana/web3.js` | Directing generation inputs, wallet states, cluster communication, and UI layouts. |
-| **Backend Gateway** | Node.js, Express.js | Core christosantono infrastructure layers handling AI generation logic and API keys securely. |
-| **Decentralized Storage** | IPFS via Pinata SDK | Immutably pinning image binaries and standard token/NFT JSON metadata schemas. |
-| **Blockchain Layer** | Solana Runtime Core | Fast transaction execution, asset distribution, and verifiable ownership recording. |
-
----
-
-## System Requirements
-
-Ensure you have the following software profiles running locally:
-
-* **Node.js:** `v18.x` or higher
-* **Package Manager:** `npm v9.x+` or `yarn v1.22.x+`
-* **Web3 Wallet:** Phantom extension or any Solana-compatible ecosystem wallet
-* **Local Environment:** Solana CLI tools (optional, for local validator clusters)
+- AI image generation powered by **remade.ai**
+- Native Solana wallet authentication
+- Direct blockchain integration
+- Automatic IPFS uploads
+- NFT and token metadata generation
+- Fast asynchronous generation pipeline
+- Modern React interface
+- Built for creators, communities, and developers
 
 ---
 
-## Setup and Installation
+## Architecture
 
-### 1. Project Initialization
-Clone the platform codebase and enter the working directory:
+| Layer | Technology | Purpose |
+|--------|------------|---------|
+| Frontend | React • TypeScript • TailwindCSS | User interface and generation workflow |
+| Backend | Node.js • Express | API gateway and generation services |
+| AI Engine | remade.ai | Image generation pipeline |
+| Storage | IPFS • Pinata | Permanent asset storage |
+| Blockchain | Solana | Asset ownership and deployment |
+
+---
+
+## Why vares?
+
+Traditional AI image generators stop after creating an image.
+
+vares continues from there.
+
+Generated content can immediately become part of an on-chain project, allowing creators to move from an idea to a deployable asset without switching between multiple platforms or tools.
+
+---
+
+## Installation
+
+Clone the repository.
+
 ```bash
 git clone https://github.com/christosantono/vares.git
+
 cd vares
+```
+
+Install dependencies.
+
+```bash
+npm install
+```
+
+Start the development server.
+
+```bash
+npm run dev
+```
+
+---
+
+## Requirements
+
+- Node.js 18+
+- npm or Yarn
+- Phantom or another Solana wallet
+- Solana CLI (optional)
+
+---
+
+## Project Structure
+
+```
+vares/
+│
+├── client/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   └── assets/
+│
+├── server/
+│   ├── routes/
+│   ├── services/
+│   └── middleware/
+│
+├── contracts/
+│
+├── public/
+│
+└── package.json
+```
+
+---
+
+## Roadmap
+
+- Improved generation models
+- More Solana launch integrations
+- Collaborative workspaces
+- Video generation
+- Mobile support
+- Community templates
+- Public API
+
+---
+
+## Tech Stack
+
+- React
+- TypeScript
+- Node.js
+- Express
+- Solana Web3.js
+- Pinata
+- IPFS
+- remade.ai
+
+---
+
+## Contributing
+
+Contributions are welcome.
+
+If you have ideas for improvements or want to add new functionality, feel free to open an issue or submit a pull request.
+
+---
+
+## License
+
+Released under the MIT License.
