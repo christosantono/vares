@@ -445,17 +445,17 @@ export function PremiumLandingPage() {
             </div>
 
             <h1 className="zenivra-title mt-6 max-w-4xl overflow-hidden text-[clamp(4rem,12vw,9.5rem)] font-semibold leading-[0.82] tracking-normal text-white">
-              <span className="sr-only">Zenivra</span>
-              {splitChars("Zenivra")}
+              <span className="sr-only">vares</span>
+              {splitChars("vares")}
             </h1>
             <p className="hero-copy mt-7 max-w-2xl text-lg leading-8 text-white/68 md:text-xl">
-              A premium AI creation suite for cinematic images, crisp 4K detail, and production-ready
+              A premium web3 AI creation suite for cinematic images, crisp 4K detail, and production-ready
               cutouts. Generate beautiful visuals with the polish of a launch campaign.
             </p>
 
             <div className="hero-actions mt-9 flex flex-wrap items-center gap-3">
               <Link href="/auth/signup" className="landing-primary-button group">
-                Start creating
+                Connect Wallet
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
               <Link href="/explore" className="landing-secondary-button">
@@ -569,7 +569,7 @@ export function PremiumLandingPage() {
             {splitWords("A cinematic canvas for AI motion.")}
           </h2>
           <p className="section-reveal mt-5 text-lg leading-8 text-white/58">
-            Zenivra turns visual ideas into polished moving scenes, ready for launches, ads, reels,
+            vares turns visual ideas into polished moving scenes, ready for launches, ads, reels,
             and creator drops.
           </p>
         </div>
@@ -629,7 +629,7 @@ export function PremiumLandingPage() {
               create without friction
             </p>
             <h2 className="section-title mt-5 overflow-hidden font-display text-5xl font-semibold leading-tight tracking-normal md:text-7xl">
-              {splitWords("Start Creating with Zenivra")}
+              {splitWords("Start Creating with vares")}
             </h2>
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <Link href="/auth/signup" className="landing-primary-button">
@@ -648,7 +648,7 @@ export function PremiumLandingPage() {
                 <div className="grid h-8 w-8 place-items-center rounded-md bg-white text-black">
                   <Wand2 className="h-4 w-4" />
                 </div>
-                <span className="font-display text-xl font-semibold">Zenivra</span>
+                <span className="font-display text-xl font-semibold">vares</span>
               </div>
               <p className="mt-4 max-w-sm text-sm leading-6 text-white/50">
                 Premium AI generation for creators, brands, and teams building visual stories.
@@ -686,7 +686,7 @@ export function PremiumLandingPage() {
             </div>
           </div>
           <div className="mt-10 flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-6 text-xs text-white/42">
-            <span>Copyright 2026 Zenivra Labs</span>
+            <span>Copyright 2026 vares Labs</span>
             <span className="font-mono">all systems operational</span>
           </div>
         </div>
