@@ -1,0 +1,17 @@
+# Zenivra — AI Creator Platform
+
+> Affordable, community-driven AI image and video generation for creators and teams.
+
+Zenivra is an AI creator ecosystem combining image generation, a public gallery, a marketplace for prompts and styles, and creator tools.
+
+## Pages
+- [Home](/): Product landing, live feed, pricing overview
+- [Explore](/explore): Public community gallery of generated work
+- [Models](/models): Catalog of available AI models
+- [Marketplace](/marketplace): Prompts, styles, LoRA packs
+- [Pricing](/pricing): Plans and credits
+- [Developers](/developers): API platform overview
+
+## Optional
+- [Terms](/legal/terms)
+- [Privacy](/legal/privacy)
