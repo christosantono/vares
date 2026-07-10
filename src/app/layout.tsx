@@ -5,10 +5,10 @@ import { Providers } from "./providers";
 import "../styles.css";
 
 export const metadata: Metadata = {
-  title: "Zenivra - AI Creator Platform",
+  title: "vares - AI Creator Platform",
   description: "Affordable, community-driven AI image generation for creators and teams.",
   openGraph: {
-    title: "Zenivra - AI Creator Platform",
+    title: "vares - AI Creator Platform",
     description:
       "Generate, remix, and monetize AI art with a creator ecosystem built around community.",
     type: "website",
