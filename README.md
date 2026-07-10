@@ -11,13 +11,11 @@
 
 ## Welcome to vares
 
-vares is a decentralized, full-stack ecosystem designed to turn raw imagination into high-utility digital assets on Solana. By bridging advanced generative AI models directly with high-throughput blockchain architecture, vares allows creators, builders, and community leads to generate high-fidelity media assets, design memecoin identities, and deploy them on-chain within seconds.
-
-Built using optimized architectural patterns by christosantono and powered by the remade.ai infrastructure, the platform strips away the typical complexity of Web3 applications. There are no corporate accounts, no complex configuration loops, and no gas-fee anxiety—just fluid, instant creation.
+vares is a decentralized, full-stack platform designed to transform creative concepts into high-utility digital assets on Solana. We wanted to build something that turns whatever’s in your head into digital assets on Solana, without all the usual crypto friction. It's basically a cracked AI image generation tool that hooks up directly to blockchain tech, so creators, builders, and community leads can spin up media, design whole memecoin ideas, and launch them on-chain in literally seconds.
 
 ---
 
-## Core Framework
+## the core setup
 
 * **Frictionless Web3 Authentication:** Say goodbye to legacy email logins. Authenticate instantly via a clean, unified Web3 modal fully optimized for the Phantom wallet extension and native Solana wallet adapters.
 * **Powered by remade.ai:** Utilizes the robust remade.ai engineering stack to orchestrate asynchronous text-to-image AI pipelines, handling rapid model queries without client-side lag.
